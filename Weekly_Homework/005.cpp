@@ -2,7 +2,7 @@
 #include<stdio.h>
 int main()
 {
-	int a;
+	unsigned int a;
 	scanf("%d", &a);
 	if (a != 0)
 	{
