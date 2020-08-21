@@ -2,9 +2,9 @@
 #include<stdio.h>
 int main()
 {
-	unsigned int a;
+	int a;
 	scanf("%d", &a);
-	if (a != 0)
+	if (a > 0)
 	{
 		if (a % 2 == 0)
 		{
