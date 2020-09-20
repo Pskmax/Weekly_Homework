@@ -5,13 +5,16 @@ int main()
 {
 	int a, i, j;
 	cin >> a;
-	for (i = 0; i < a; i++)
+	if (a > 0)
 	{
-		for (j = 0; j < a - i; j++)
+		for (i = 0; i < a; i++)
 		{
-			cout << "* ";
+			for (j = 0; j < a - i; j++)
+			{
+				cout << "* ";
+			}
+			cout << "\n";
 		}
-		cout << "\n";
 	}
 	return 0;
 }
