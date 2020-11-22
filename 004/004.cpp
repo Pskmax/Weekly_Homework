@@ -5,7 +5,7 @@ int main()
 	int a, b, c, sum;
 	scanf("%d %d %d", &a, &b, &c);
 	sum = a + b + c;
-	if (sum >0)
+	if (sum > 0)
 	{
 		if (sum >= 50)
 		{
@@ -17,32 +17,32 @@ int main()
 					{
 						if (sum >= 70)
 						{
-							if (sum>=75)
+							if (sum >= 75)
 							{
 								if (sum >= 80 && sum <= 100)
 								{
 									printf("A");
 								}
 								else
-								printf("B+");
+									printf("B+");
 							}
 							else
-							printf("B");
+								printf("B");
 						}
 						else
-						printf("C+");
+							printf("C+");
 					}
 					else
-					printf("C");
+						printf("C");
 				}
 				else
-				printf("D+");
+					printf("D+");
 			}
 			else
-			printf("D");
+				printf("D");
 		}
 		else
-		printf("F");
+			printf("F");
 	}
 	return 0;
 }
