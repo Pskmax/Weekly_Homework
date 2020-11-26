@@ -28,6 +28,7 @@ kk* _push(kk** node, int data)
     temp->data = data;
     temp->next = *node;
     *node = temp;
+    return 0;
 }
 kk* insert(kk* node, int data)
 {
