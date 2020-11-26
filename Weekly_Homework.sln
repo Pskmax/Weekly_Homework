@@ -49,15 +49,7 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "000TEST", "TEST1\TEST1.vcxp
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "026", "026\026.vcxproj", "{E13EC58A-DCCB-4486-A0A9-5787766E4214}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Source Files", "Source Files", "{48DDC56D-C6C7-4995-92B7-47910D721D43}"
-	ProjectSection(SolutionItems) = preProject
-		021.cpp = 021.cpp
-		022.cpp = 022.cpp
-		023.cpp = 023.cpp
-		024.cpp = 024.cpp
-		025.cpp = 025.cpp
-		026.cpp = 026.cpp
-	EndProjectSection
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Weekly_Homework", "Weekly_Homework\Weekly_Homework.vcxproj", "{121C7755-1030-40D9-9E4B-BBCC1AEC0E6C}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -251,6 +243,14 @@ Global
 		{E13EC58A-DCCB-4486-A0A9-5787766E4214}.Release|x64.Build.0 = Release|x64
 		{E13EC58A-DCCB-4486-A0A9-5787766E4214}.Release|x86.ActiveCfg = Release|Win32
 		{E13EC58A-DCCB-4486-A0A9-5787766E4214}.Release|x86.Build.0 = Release|Win32
+		{121C7755-1030-40D9-9E4B-BBCC1AEC0E6C}.Debug|x64.ActiveCfg = Debug|x64
+		{121C7755-1030-40D9-9E4B-BBCC1AEC0E6C}.Debug|x64.Build.0 = Debug|x64
+		{121C7755-1030-40D9-9E4B-BBCC1AEC0E6C}.Debug|x86.ActiveCfg = Debug|Win32
+		{121C7755-1030-40D9-9E4B-BBCC1AEC0E6C}.Debug|x86.Build.0 = Debug|Win32
+		{121C7755-1030-40D9-9E4B-BBCC1AEC0E6C}.Release|x64.ActiveCfg = Release|x64
+		{121C7755-1030-40D9-9E4B-BBCC1AEC0E6C}.Release|x64.Build.0 = Release|x64
+		{121C7755-1030-40D9-9E4B-BBCC1AEC0E6C}.Release|x86.ActiveCfg = Release|Win32
+		{121C7755-1030-40D9-9E4B-BBCC1AEC0E6C}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
